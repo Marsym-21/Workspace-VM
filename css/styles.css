@@ -61,7 +61,6 @@ font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
 
-position: absolute;
 padding-top: 24px;
 padding-left: 215px;
 
@@ -181,19 +180,14 @@ padding:0px;
 /*Section activity*/
 
 .activity{
-    width: 1200px ;
+    width: 1600px ;
     height: 386px;
-    margin: 0px 185px 94px 215px;
+    margin-top: 94px;
 }
 
 .activity-title{
- 
- width: 367px;
- height: 42px;
-
- margin-top: 0px;
- margin-bottom: 50px;
- padding-left: 402px;
+margin-top: 0px; 
+margin-bottom: 50px;
  
 }
 .activity-title, .team-title{
@@ -221,36 +215,28 @@ padding:0px;
 
 .team{
     background-color: #F5F4FA;
-
     width: 1600px ;
     height: 648px;
+    margin-top: 94px;
 }
 .team-title{
-    width: 265px; 
-    height: 42px;
-
+    margin-top: 0px;
     padding-top: 94px;
-    padding-left: 668px;
+  margin-bottom: 50px;
     
 }
 .team .list{
     display: inline-flex;
     flex-direction: row;
-
-    width: 1200px;
-    height: 368px;
-
+    margin: 0px;
     padding: 0px;
-    margin: 50px 185px 0px 215px;
 }
 .team-item{
-    
     background-color: var(--body-color);
 
     margin-right: 30px;
 
     filter:drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-
 }
 .team-item > .title{
 text-align: center;

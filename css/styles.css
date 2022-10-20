@@ -60,7 +60,6 @@ font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
-
 padding-top: 24px;
 padding-left: 215px;
 
@@ -165,7 +164,6 @@ line-height: 1.14;
 text-transform: uppercase;
 margin-top: 0px;
 margin-bottom: 10px;
-padding:0px;
 }
 
 .speciality-item .list-text{
@@ -216,20 +214,20 @@ margin-bottom: 50px;
 .team{
     background-color: #F5F4FA;
     width: 1600px ;
-    height: 648px;
     margin-top: 94px;
 }
 .team-title{
-    margin-top: 0px;
+    margin: 0px;
     padding-top: 94px;
-  margin-bottom: 50px;
     
 }
 .team .list{
     display: inline-flex;
     flex-direction: row;
-    margin: 0px;
-    padding: 0px;
+    margin-top: 50px;
+    padding-bottom: 94px;
+    padding-left: 0px;
+    margin-bottom: 0px;
 }
 .team-item{
     background-color: var(--body-color);
@@ -238,19 +236,28 @@ margin-bottom: 50px;
 
     filter:drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
-.team-item > .title{
+.team-item .title{
 text-align: center;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.19;
 letter-spacing: 0.03em;
+margin-top: 30px;
+margin-bottom: 0px;
 }
 
-.team-item > .text {
+.team-item img{
+    border: 2px solid red;
+}
+
+.team-item .text {
 font-size: 16px;
 line-height: 1.19;
 text-align: center;
 letter-spacing: 0.03em;
+margin-bottom: 0px;
+margin-top: 10px;
+padding-bottom: 30px;
 }
 
 
@@ -261,7 +268,8 @@ letter-spacing: 0.03em;
     background-color: #2F303A;
 
  width: 1600px;
- height: 252px;}
+ height: 252px;
+padding-top: 0px;}
 
 .logo-footer{
     color:var(--primary-title-color);

@@ -1,4 +1,4 @@
-html{box-sizing: border-box;}
+*, *::before, *::after {box-sizing: border-box;}
 *, *::before, *::after{box-sizing: inherit;}
 :root{
 --primary-color: #757575;
@@ -411,7 +411,7 @@ button.item.all{
 .image-menu.list .item{
  background-color:var(--primary-title-color) ;
 
-width: calc((100% - 60px) / 3);
+width: 370px;
 margin-right: 30px;
 margin-bottom: 30px;
 }

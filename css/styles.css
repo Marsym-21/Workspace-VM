@@ -51,7 +51,6 @@ img{display: block;}
 background-color: var(--body-color);
 box-sizing: border-box;
 width: 1600px;
-
 border-bottom: 1px solid #ECECEC;
 
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -120,8 +119,9 @@ letter-spacing: 0.03em;
 
 .head.list .link-item, .head-contacts.list .link-contacts{
     display: block;
-    padding: 32px 0;
-
+    padding-left: 0;
+    padding-top: 32px;
+    padding-bottom: 31px;
     font-weight: 500;
    font-size: 14px;
    line-height: 16px;
@@ -174,9 +174,9 @@ padding-bottom: 30px;;
     display: block;
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.88;
+    line-height: 1.87;
     letter-spacing: 0.06em;   
-   padding: 10px 32px;}
+   padding: 9px 31px;}
 
 
 
@@ -435,17 +435,17 @@ line-height: 2;
 letter-spacing: 0.06em;
 margin-top: 0px;
 margin-bottom: 4px;
-padding-left: 24px;
+padding-left: 23px;
 padding-top: 20px;
 }
 
 .image-menu.list .text{
 font-size: 16px;
-line-height: 1.87;
+line-height: 1.88;
 letter-spacing: 0.03em;
 
 margin: 0px;
-padding-bottom: 20px;
+padding-bottom: 19px;
 padding-left: 24px;
 }
 

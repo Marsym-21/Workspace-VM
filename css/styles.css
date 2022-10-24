@@ -11,7 +11,7 @@ html{box-sizing: border-box;}
 --border-bottom:#ECECEC;
 --banner-color:#2F303A;
 --team-background-color:#F5F4FA;
---footer-background-color:#2F303A;
+--image-content-border-color:#EEEEEE;
 }
 
 .body-studio, .body-portfolio, .body-contacts{
@@ -307,7 +307,7 @@ margin-bottom: 0px;
 
 /*Footer*/
 .footer{
-    background-color:var(--footer-background-color) ;
+    background-color:var(--banner-color) ;
 padding-top: 60px;
 padding-bottom: 60px;}
 
@@ -368,7 +368,7 @@ margin-bottom: 34px;
  }
 
 button.item{
-    background-color:#F5F4FA;
+    background-color:var(--team-background-color);
     color:var(--title-color) ;
 
  font-family: 'Roboto';
@@ -450,7 +450,7 @@ margin: 0px;
  padding-bottom: 20px;
  padding-left: 24px;
 
-border: 1px solid #EEEEEE;    
+border: 1px solid var(--image-content-border-color);    
 border-top: none;
 }
 
